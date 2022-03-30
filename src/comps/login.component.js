@@ -10,10 +10,6 @@ export default class Login extends Component {
         loading: false,
     }
 
-    config = {
-        headers: { Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGRlYjgzZTI5ZDcwZmJiNzA3MmM2NSIsImlhdCI6MTY0NTE2NzY0NSwiZXhwIjoxNjQ1MjU0MDQ1fQ.C7kO6x5ybv6J09wlroTl1_BzAsF8256l4kFkMLPVDXg` }
-    };
-
     login = () => {
         this.setState({ loading: true });
         //input.preventDefault();
