@@ -16,7 +16,7 @@ export default class Login extends Component {
 
         console.log(this.state.username, this.state.password)
 
-        axios.post('https://dev-breview.poorvika.com/api/user/login/', {
+        axios.post('your url', {
             userName: this.state.username,
             password: this.state.password
         })
